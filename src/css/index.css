@@ -1,0 +1,43 @@
+.bk-list .list-item {
+  position: relative;
+  height: 150px;
+  border-bottom: 1px solid #ddd;
+}
+.bk-list .list-item .item-lk {
+  display: block;
+  height: 100%;
+}
+
+.bk-list .list-item .bk-pic {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 150px;
+  padding: 10px;
+}
+.bk-list .list-item .bk-info {
+  height: 100%;
+  margin-left: 118px;
+  color: #424242;
+}
+
+.bk-list .list-item .bk-info .intro {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.s-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: url(../img/rocket.png) no-repeat 0 0/ 100% 100%;
+  opacity: .6;
+}
+
+.s-top-btn:hover {
+  opacity: 1;
+}
